@@ -1,0 +1,42 @@
+#ToDos{
+    width: 75%;
+    margin-bottom: 100px;
+}
+
+.ToDo{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    background-color: #D2E5D0;
+    border: solid black 2px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.ToDo>input{
+    margin-left: 10px;
+}
+
+.ToDo>strong{
+    margin-left: 20px;
+}
+
+.ToDo>p, .ToDo>s{
+    left: 100px;
+    width: 40%;
+    overflow: hidden;
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.RemoveButton{
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 20px;
+}
+
+.checkBox:checked ~ p{
+    text-decoration: line-through;
+}

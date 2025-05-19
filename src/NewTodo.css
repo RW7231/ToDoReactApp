@@ -1,0 +1,25 @@
+#addToDo{
+    display: flex;
+    flex-direction: column;
+    border: solid #65463E 2px;
+    background-color: #D2E5D0;
+    width: 45%;
+    align-items: center;
+  }
+
+  #toDoForm{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#addToDo>img{
+    border-radius: 25px;
+    border: solid black 1px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+  #addToDo{
+    width: 100%;
+  }
+}
